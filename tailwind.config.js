@@ -17,6 +17,10 @@ module.exports = {
       },
     },
     extend: {
+      gridTemplateRows: {
+        layout: 'auto auto 1fr auto',
+        card: 'auto 1fr auto',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',

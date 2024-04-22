@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className='fixed bottom-0 w-full'>
+    <footer className='h-fit'>
       <div className='mx-auto flex max-w-7xl items-center justify-center gap-2 px-4 py-4'>
         <p>©{' ' + new Date().getFullYear() + ' '}</p>
         <p className='flex items-center gap-2'>

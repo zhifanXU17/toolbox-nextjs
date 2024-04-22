@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='zh-CN' suppressHydrationWarning>
-      <body className={noto.className}>
+      <body className={noto.className + ' grid-rows-layout grid'}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <Navbar />
           <Separator />
